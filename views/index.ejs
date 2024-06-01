@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Joke Generator</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+        <h1 class="text-2xl font-bold mb-4">Get a Personalized Joke</h1>
+        <form action="/joke" method="POST">
+            <input type="text" name="name" placeholder="Enter your name" class="border p-2 rounded mb-4 w-full">
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-700">Get Joke</button>
+        </form>
+    </div>
+</body>
+</html>
